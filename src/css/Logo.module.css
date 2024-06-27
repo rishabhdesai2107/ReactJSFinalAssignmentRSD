@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+
+}
+
+.header {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  left: 10px;
+}
+
+.maincontent {
+  padding: 20px;
+  text-align: center;
+}
